@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: cursive;
+    margin: 10%;
+    padding: 10px;
+    font-size: 20px;
+    background-image: url(https://media.istockphoto.com/photos/white-rough-paper-texture-background-picture-id672541502?k=6&m=672541502&s=170667a&w=0&h=sk_dEEcbfkZdoWG8c9pQbEsijB2O8t6fhZEYiEnd-Y4=);
+  }
+  h1 {
+    text-align: center;
+  }
+  input[type="submit"]:hover {
+    background-color: rgb(164, 238, 201);
+    color: green;
+    cursor: pointer;
+  }
+  input[type="submit"] {
+    background-color: rgb(204, 204, 235);
+    color: rgb(6, 6, 112);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  textarea[type="text"],
+  select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(189, 191, 194);
+    border-radius: 7px;
+    margin: 10px;
+    background-color: rgba(207, 204, 241, 0.192);
+  }
+  
+  div {
+    background-color: whitesmoke;
+    font-size: 12px;
+  }
+  
